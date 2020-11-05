@@ -23,8 +23,8 @@ export default () => (
       <Banner />
       <TextBlock
         id="about"
-        title="Developing a new business is never easy, but Startup is here to help"
-        paragraph="With a super-fast Gatsby powered website you have the perfect platform to get your idea off the ground. Its the perfect template to help turn your idea into a reality."
+        title="Developing a new business is never easy, but BendevAgency is here to help"
+        paragraph="With a super-fast websites you have the perfect platform to get your idea off the ground. Its the perfect spot to help turn your idea into a reality."
       >
         <Link to="perks" smooth={true} duration={500}>
           <Button label="Tell Me More" cta="Tell Me More!" />
@@ -33,9 +33,9 @@ export default () => (
       <TextBlockImg
         id="perks"
         title="We have the tools to help you suceed"
-        subtitle="Startup is perfect for helping to to start and grow your business. As
+        subtitle="BendevAgency is perfect for helping to start and grow your business. As
           you begin to gain new clients and expand you will see the benefits of
-          a super-fast Gatsby website"
+          a super-fast  website"
       >
         <div className="flex-container trio-block">
           <Perk
@@ -59,8 +59,8 @@ export default () => (
         </div>
       </TextBlockImg>
       <Packages
-        title="Our Packages"
-        para="Choose the perfect solution for you. With benefits to suit all budgets Startup can offer amazing value and expert advice"
+        title="Our services"
+        para="Choose the perfect solution for you. With benefits to suit all budgets BendevAgency can offer amazing value and expert advice"
       >
         <IconContext.Provider
           value={{
@@ -141,8 +141,8 @@ export default () => (
       </Packages>
       <Contact
         id="contact"
-        title="Contact Startup today and see how we can help your business grow"
-        subtitle="Every second counts when you're looking to get your new business started. Drop Startup a message and one of our representatives will be in contact"
+        title="Contact BendevAgency today and see how we can help your business grow"
+        subtitle="Every second counts when you're looking to get your new business started. Drop us a message and one of our representatives will be in contact"
       />
     </Layout>
   </>
