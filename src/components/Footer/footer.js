@@ -8,11 +8,11 @@ const Footer = () => {
       <div className="credit">
         Designed & developed by{" "}
         <a
-          href="http://www.morganbaker.dev"
+          href="https://bendevs.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Morgan
+          BenDevs
         </a>
       </div>
       {socialIcons.map((item, index) => {
